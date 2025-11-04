@@ -3,6 +3,8 @@
  * Öğrenci No: 250541051
  * Tarih: 24.10.2025
  * Açıklama: Maaş Hesaplama Sistemi
+ * Bu program çalışan bilgilerini ve maaş verilerini aldıktan sonra
+ * gelirleri ve kesintileri hesaplayarak net maaşı ve istatistikleri gösterir.
  */
 
 import java.util.Scanner;
