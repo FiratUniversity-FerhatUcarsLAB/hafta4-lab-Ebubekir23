@@ -51,7 +51,7 @@ public class MaasHesaplamaSistemi {
 		
 		
 		//İstatistikler
-		double kesintiOranı = (toplamKesinti/toplamGelir) * 100;
+		double kesintiOrani = (toplamKesinti/toplamGelir) * 100;
 		double saatlikNet = netMaas/176;
 		double gunlukNet = netMaas/22;
 		
@@ -74,11 +74,11 @@ public class MaasHesaplamaSistemi {
 		System.out.printf("Gelir Vergisi (%.1f%%): %.2f TL\n", GELIR_VERGISI_ORANI*100, gelirVergisi);
 		System.out.printf("Damga Vergisi (%.1f%%): %.2f TL\n", DAMGA_VERGISI_ORANI*100, damgaVergisi);
 		System.out.println("---------------------------");
-		System.out.printf("TOPLAM KESİNTİ (%.1f%%): %.2f TL\n", kesintiOranı, toplamKesinti);
+		System.out.printf("TOPLAM KESİNTİ (%.1f%%): %.2f TL\n", kesintiOrani, toplamKesinti);
 		
 		System.out.printf("NET MAAŞ: %.2f TL\n", netMaas);
 		System.out.println("-----------------------------");
-		System.out.printf("Kesinti Oranı: %.1f%%\n", kesintiOranı);
+		System.out.printf("Kesinti Oranı: %.1f%%\n", kesintiOrani);
 		System.out.printf("Saatlik Net Kazanç: %.2f TL\n", saatlikNet);
 		System.out.printf("Günlük Net Kazanç: %.2f TL\n", gunlukNet);
 		System.out.println("-----------------------------");
