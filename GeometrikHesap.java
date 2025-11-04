@@ -3,6 +3,8 @@
  * Öğrenci No: 250541051
  * Tarih: 24.10.2025
  * Açıklama: Geometrik Hesaplayıcı
+ * Bu program kullanıcıdan dairenin yarıçapını alır ve
+ * dairenin alanı, çevresi, çapı ile küreye ait hacim ve yüzey alanını hesaplar.
  */
 
 import java.util.Scanner;
