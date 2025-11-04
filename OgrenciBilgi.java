@@ -15,6 +15,7 @@ public class ÖğrenciBilgi {
 		Scanner inputScanner = new Scanner(System.in);
 		
 		System.out.println("Öğrenci Bilgi Sistemi");
+		System.out.println("----------------------");
 		
 		System.out.print("Adınızı Girin: ");
 		String ad = inputScanner.next();
@@ -23,18 +24,18 @@ public class ÖğrenciBilgi {
 		String soyad = inputScanner.next();
 		
 		System.out.print("Öğrenci Numaranız: ");
-		int öğrencino = inputScanner.nextInt();
+		int ogrencino = inputScanner.nextInt();
 		
 		System.out.print("Yaşınız: ");
-		int yaş = inputScanner.nextInt();
+		int yas = inputScanner.nextInt();
 		
 		System.out.print("GPA (0.00-4.00): ");
 		double gpa = inputScanner.nextDouble();
 		
 		System.out.println("\n=== ÖĞRENCİ BİLGİ SİSTEMİ ===");
 		System.out.printf("Ad Soyad: %s %s\n", ad, soyad);
-		System.out.printf("Öğrenci No: %d\n", öğrencino);
-		System.out.printf("Yaş: %d\n", yaş);
+		System.out.printf("Öğrenci No: %d\n", ogrencino);
+		System.out.printf("Yaş: %d\n", yas);
 		System.out.printf("GPA: %.2f\n", gpa);
 		System.out.printf("Durum: Başarılı Öğrenci");
 		
