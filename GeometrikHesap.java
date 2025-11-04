@@ -9,7 +9,7 @@
 
 import java.util.Scanner;
 
-public class GeometrikHesaplayıcı {
+public class GeometrikHesaplayici {
 	public static void main(String [] args) {
 		
 		Scanner input = new Scanner(System.in);
@@ -19,28 +19,27 @@ public class GeometrikHesaplayıcı {
 		
 		System.out.println("===Geometrik Hesaplayıcı===");
 		System.out.print("Dairenin yarıçapını girin (cm): ");
-		double yarıçap = input.nextDouble();
+		double yaricap = input.nextDouble();
 		
 		//Hesaplamalar
 		
-		double alan = pi*yarıçap*yarıçap;
-		double çevre = 2*pi*yarıçap;
-		double çap = 2*yarıçap;
-		double hacim = 4.0/3.0 * pi * Math.pow(yarıçap, 3);
-		double yüzey_alanı = 4*pi*yarıçap*yarıçap;
+		double alan = pi*yaricap*yaricap;
+		double cevre = 2*pi*yaricap;
+		double cap = 2*yaricap;
+		double hacim = 4.0/3.0 * pi * Math.pow(yaricap, 3);
+		double yuzey_alani = 4*pi*yaricap*yaricap;
 		
 		//Yazdırma
 		System.out.println("\nSonuçlar");
 		System.out.println("------------------------");
 		System.out.printf("Daire Alanı: %.2f cm^2\n", alan);
-		System.out.printf("Daire Çevresi: %.2f cm\n", çevre);
-		System.out.printf("Daire Çapı: %.2f cm\n", çap);
+		System.out.printf("Daire Çevresi: %.2f cm\n", cevre);
+		System.out.printf("Daire Çapı: %.2f cm\n", cap);
 		System.out.printf("Küre Hacmi: %.2f cm^3\n", hacim);
-		System.out.printf("Küre Yüzey Alanı: %.2f cm^2\n", yüzey_alanı);
+		System.out.printf("Küre Yüzey Alanı: %.2f cm^2\n", yuzey_alani);
 		
 		input.close();
 		
 	}
 
 }
-
